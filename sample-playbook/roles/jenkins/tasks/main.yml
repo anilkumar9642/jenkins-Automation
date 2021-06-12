@@ -1,6 +1,6 @@
----
-# tasks file for jenkins
-#
-- include: jenkins.yml
-  tags:
-      - jenkins
+  ---
+  # tasks file for jenkins
+  #
+  - include: jenkins.yml
+    tags:
+        - jenkins
