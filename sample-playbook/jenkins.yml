@@ -19,9 +19,8 @@
       dest: /opt/jdk-8u60-linux-x64.rpm
       headers: 'Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie'
 
- - name: Install Java JDK rpm from a local file
-   yum:
+  - name: Install Java JDK rpm from a local file
+    yum:
       name: /opt/jdk-8u60-linux-x64.rpm
       state: present
-  
-      
+
